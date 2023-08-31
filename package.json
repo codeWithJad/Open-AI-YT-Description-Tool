@@ -1,0 +1,31 @@
+{
+  "name": "openai_desc_generator",
+  "version": "1.0.0",
+  "description": "it is a tool for generating Youtube Descriptions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeWithJad/Open-AI-YT-Description-Tool.git"
+  },
+  "keywords": [
+    "Youtube",
+    "Tool",
+    "Description"
+  ],
+  "author": "Jad Taha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeWithJad/Open-AI-YT-Description-Tool/issues"
+  },
+  "homepage": "https://github.com/codeWithJad/Open-AI-YT-Description-Tool#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "openai": "^4.3.1"
+  }
+}
